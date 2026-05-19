@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula Js</title>
+</head>
+<body id="corpo">
+    <!--JavaScript é uma linguagem orientada á eventos-->
+
+    <h1 id="fonte1">Hello World!</h1>
+    <p id="fonte2">Esse é o meu primeiro programa em JavaScript!</p>
+    <h2 id="fonte3">Aperte o botão para trocar a cor de fundo da tela</h2>
+
+    <!--onclick é uma propriedade que executa uma função quando o botão é clicado-->
+    <button onclick="mudarCor()">Trocar Cor</button>
+    <button onclick="mudar()">Clique Aqui</button>
+
+    <!--Definindo um array(utilizado para criação de listas) com as cores-->
+    <!--documento - corpo - estilo - cordofundo-->
+    <!--CTRL + ; cria comentario-->
+    <script>
+        function mudarCor(){
+            let cores = ["#FF5733", "#3357FF", "#33FF57", "#FF33A1"];
+            let corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+            document.body.style.backgroundColor = corAleatoria;
+        }
+
+        function mudar(){
+            const preto = "#000000";
+            const branco = "#FFFFFF";
+            const verde = "#00FF00";
+
+            document.getElementById("corpo").style.backgroundColor = preto;
+            document.getElementById("fonte1").style.color = branco;
+            document.getElementById("fonte3").style.color = branco;
+
+            let fonte2 = document.getElementById("fonte2");
+            fonte2.style.backgroundColor = verde;
+            fonte2.style.color = preto;
+        }
+    </script>
+</body>
+</html>
