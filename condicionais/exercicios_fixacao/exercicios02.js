@@ -80,8 +80,9 @@
 // Exercicio 1 - Intermediário
 
 // let a = Number(prompt("Digite o primeiro número: "));
-// let operacao = prompt("Digite a operação desejada (+, -, *, /): ");
 // let b = Number(prompt("Digite o segundo número: "));
+// let operacao = prompt("Digite a operação desejada (+, -, *, /): ");
+
 // let resultado;
 
 // if (operacao === "+") {
