@@ -103,11 +103,13 @@
 
 // Exercicio 6 - Intermediário - Média de valores
 
-let soma = 0;
+// let soma = 0;
 
-for(let i = 0; i < 3; i++){
-    let numero = Number(prompt("Digite um número:"));
-    soma = soma + numero;
-}
-let media = soma / 3;
-console.log("A média é: " + media);
+// for(let i = 0; i < 3; i++){
+//     let numero = Number(prompt("Digite um número:"));
+//     soma = soma + numero;
+// }
+// let media = soma / 3;
+// console.log("A média é: " + media);
+
+// --------------------------------------------------------------------
