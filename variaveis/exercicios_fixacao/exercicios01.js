@@ -1,4 +1,4 @@
-// Exercicio 1
+// Exercicio 1 — Perfil
 
 // let nomepessoal = "Giovanni";
 // let idade = "20";
@@ -9,7 +9,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 2
+// Exercicio 2 — Produto
 
 // let produto = "celular";
 // let preco = "3.000,00"
@@ -19,7 +19,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 3
+// Exercicio 3 — Calculando valores
 
 // let valor1 = 10;
 // let valor2 = 20;
@@ -31,7 +31,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 4
+// Exercicio 4 — Tipos
 
 // let mensagem = "Olá";
 // console.log(typeof mensagem);
@@ -50,7 +50,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 5
+// Exercicio 5 — Conversões
 
 // let numero = "100"
 // let convertido = Number(numero);
@@ -62,7 +62,7 @@
 
 // ------------------------------------------------------------------------
 
-// Desafio
+// Desafio — mini cadastro
 
 // let nome1 = "Giovanni";
 // let idade1 = "20";
