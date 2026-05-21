@@ -2,7 +2,7 @@
 // Estruturas de repetição
 // permite várias vezes um bloco com base em uma condição
 
-// tipos:
+// Tipos:
 /*
     FOR
     WHILE
