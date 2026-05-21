@@ -113,3 +113,6 @@
 // console.log("A média é: " + media);
 
 // --------------------------------------------------------------------
+
+// Exercicio 1 - Avançado - Soma dos dígitos de um número
+
