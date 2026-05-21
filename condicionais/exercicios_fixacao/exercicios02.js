@@ -1,5 +1,5 @@
 
-// Exercicio 1 - Básico
+// Exercicio 1 - Básico - Verificar maioridade
 
 // const idade01 = prompt("Digite sua idade: ");
 
@@ -11,7 +11,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 2 - Básico
+// Exercicio 2 - Básico - Verificar se um número é positivo ou negativo
 
 // let numero01 = prompt("Digite um número: ");
 
@@ -23,7 +23,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 3 - Básico
+// Exercicio 3 - Básico - Aprovação em uma prova
 
 // let nota = prompt("Digite a nota do aluno: ");
 
@@ -35,7 +35,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 4 - Básico
+// Exercicio 4 - Básico - Verificar se um número é positivo, negativo ou zero
 
 // let numero02 = prompt("Digite um número: ");
 
@@ -49,7 +49,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 5 - Básico
+// Exercicio 5 - Básico - Classificação de idade
 
 // const idade02 = prompt("Digite sua idade: ");
 
@@ -65,7 +65,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 6 - Básico
+// Exercicio 6 - Básico - Verificar se um número é par ou ímpar
 
 // let numero03 = Number(prompt("Digite um número: "));
 
@@ -77,7 +77,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 1 - Intermediário
+// Exercicio 1 - Intermediário - Calculadora simples
 
 // let a = Number(prompt("Digite o primeiro número: "));
 // let b = Number(prompt("Digite o segundo número: "));
@@ -105,7 +105,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 2 - Intermediário
+// Exercicio 2 - Intermediário - Maior entre três números
 
 // let numero04 = Number(prompt("Digite um número: "));
 // let numero05 = Number(prompt("Digite outro número: "));
@@ -123,7 +123,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 3 - Intermediário
+// Exercicio 3 - Intermediário - Desconto em compras
 
 // let compra = Number(prompt("Digite o valor da compra: "));
 // let desconto;
@@ -139,7 +139,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 4 - Intermediário
+// Exercicio 4 - Intermediário - Sistema de login simples
 
 // let usuario = "admin";
 // let senhaCorreta = 1234;
@@ -155,7 +155,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 1 - Avançado
+// Exercicio 1 - Avançado - Frete de pedido
 
 // let valorCompra = Number(prompt("Digite o valor da compra para calcular o frete do pedido: "));
 
@@ -169,7 +169,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 2 - Avançado
+// Exercicio 2 - Avançado - Acesso por idade e convite
 
 // let idade = Number(prompt("Digite sua idade: "));
 // let temConvite = prompt("Voce tem convite? (sim/não)");
@@ -186,7 +186,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 3 - Avançado
+// Exercicio 3 - Avançado - Conversão de notas para conceitos
 
 // let nota = Number(prompt("Insira a nota (0-100):"));
 
@@ -204,7 +204,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 4 - Avançado
+// Exercicio 4 - Avançado - Cálculo de IMC
 
 // let peso = Number(prompt("Digite seu peso:"));
 // let altura = Number(prompt("Digite sua altura:"));
@@ -223,7 +223,7 @@
 
 // ------------------------------------------------------------------------
 
-// Exercicio 5 - Avançado
+// Exercicio 5 - Avançado - Verificação de estoque
 
 // let estoque = Number(prompt("Digite o valor do estoque:"));
 
