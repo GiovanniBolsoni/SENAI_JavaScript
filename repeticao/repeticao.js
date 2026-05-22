@@ -68,7 +68,7 @@
 
 // FOREACH significa "para cada", nesse exemplo para cada nome da lista, imprima o nome
 // nomes.forEach(function(nome) {
-//     console.log =("Nome: " + nome)
+//     console.log("Nome: " + nome)
 //     console.log(nomes[1])
 // })
 
@@ -127,7 +127,7 @@
 // --------------------------------------------------------------------
 
 // Condição dentro do foreach
-// let numeros = [3,7,10,15];
+// let numeros = [3, 7, 10, 15];
 
 // numeros.forEach(num => {
 //     if(num > 8){
