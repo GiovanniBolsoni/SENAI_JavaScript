@@ -105,9 +105,9 @@
 
 // let soma = 0;
 
-// for(let i = 0; i < 3; i++){
-//     let numero = Number(prompt("Digite um número:"));
-//     soma = soma + numero;
+// for(let i = 1; i <= 3; i++){
+//     let numero = Number(prompt(`Digite o ${i}º número: `));
+//     soma += numero
 // }
 // let media = soma / 3;
 // console.log("A média é: " + media);
@@ -168,6 +168,8 @@
 // alert("O maior número digitado é: " + maiorNumero);
 
 // --------------------------------------------------------------------
+
+// Exercicio 5 - Avançado - Lista de nomes (forEach)
 
 // const listaNomes = ["Nicolly", "Mariana", "Giovanni"]
 
