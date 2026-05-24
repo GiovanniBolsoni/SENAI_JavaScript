@@ -62,10 +62,55 @@
 
 // Exercício 3 - Intermediário - Transformar com índice
 
-const numeros = [10, 20, 30, 40, 50,]
+// const numeros = [10, 20, 30, 40, 50,]
 
-const resultados = numeros.map((numero, index) => {
-      return(`${index + 1}º número: ${numero}`);
-});
+// const resultados = numeros.map((numero, index) => {
+//       return(`${index + 1}º número: ${numero}`);
+// });
 
-console.log(resultado);
+// console.log(resultados);
+
+// --------------------------------------------------------------------
+
+// Exercício 4 - Intermediário - Verificar posição
+
+// const produtos = ["Cama", "Armário", "Mesa", "Cadeira", "Televisão"]
+
+// produtos.forEach((produto, index) => {
+//       if(index > 2){
+//             console.log(produto);
+//       }
+// });
+
+// --------------------------------------------------------------------
+
+// Exercício 5 - Intermediário - Buscar com condição
+
+// const numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+// const resultados = numeros.find((numero) => {
+//       return numero > 50
+// })
+
+// console.log(resultados);
+
+// --------------------------------------------------------------------
+
+// Exercício 1 - Avançado - Ranking simples
+
+// const nomes = ["Giovanni", "Amanda", "Gustavo", "Felipe", "Davi"]
+
+// const resultados = nomes.map((numero, index) => {
+//       return(`${index + 1}º lugar: ${numero}`)
+// })
+
+// console.log(resultados);
+
+// --------------------------------------------------------------------
+
+// Exercício 2 - Avançado - Separar por posição
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const pares = []
+const impares = []
+
