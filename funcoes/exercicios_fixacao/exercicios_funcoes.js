@@ -110,7 +110,66 @@
 
 // Exercício 2 - Avançado - Separar por posição
 
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const pares = []
-const impares = []
+// const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const pares = []
+// const impares = []
 
+// numeros.forEach((numero, index) => {
+//     if(index % 2 === 0){
+//         pares.push(numero)
+//     } else{
+//         impares.push(numero)
+//     }
+
+// });
+
+// console.log(`Números pares: ${pares}`);
+// console.log(`Números impares: ${impares}`);
+
+// --------------------------------------------------------------------
+
+// Exercício 3 - Avançado - Montar frase
+
+// let palavras = ["Montando", "uma", "frase", "usando", "(Join)", "em", "JavaScript"]
+
+// let frase = palavras.join(" ");
+// console.log(frase);
+
+// --------------------------------------------------------------------
+
+// Exercício 4 - Avançado - Buscar e mostrar posição
+
+// const nomes = ["Giovanni", "Daniel", "Gustavo", "Matheus", "Guilherme"]
+
+// let nomeDigitado = prompt("Digite seu nome e veja em que posição está da lista (Giovanni, Daniel, Gustavo, Matheus ou Guilherme): ");
+
+// let posicao = nomes.indexOf(nomeDigitado);
+
+// if(posicao == -1){
+//     console.log("Nome não encontrado");
+// } else{
+//     console.log(`O nome digitado esta na ${posicao}º posição da lista`);
+// }
+
+// --------------------------------------------------------------------
+
+// Exercício 5 - Avançado - Marcar itens
+
+// let tarefas = ["Lavar a louça", "Fazer o dever", "Tirar o lixo", "Limpar o quarto", "Passear com o pet"]
+
+// tarefas.forEach((tarefa, index) => {
+//     console.log(`[  ] ${tarefa} tarefa ${index + 1}`);
+// });
+
+// --------------------------------------------------------------------
+
+// Desafio - Sistema de escolha
+
+// const cores = ["Azul", "Vermelho", "Verde", "Amarelo", "Roxo", "Rosa"]
+
+// cores.forEach((cor, index) => {
+//     console.log(` A cor ${cor} está no indice: ${index}`);
+// });
+
+// let corDigitada = prompt("Informe um número: ");
+// alert(`A cor escolhida foi: ${cores[corDigitada]}`);
