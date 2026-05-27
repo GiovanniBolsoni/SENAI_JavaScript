@@ -28,7 +28,7 @@ body {
 }
 
 #input-item {
-  width: 55%;
+  width: 50%;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 6px;
@@ -37,6 +37,15 @@ body {
 #botao-adicionar {
   padding: 11px;
   margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #020037;
+  color: white;
+  border-radius: 6px;
+}
+
+#limpa-itens {
+  padding: 8px;
   cursor: pointer;
   border: none;
   background-color: #020037;
