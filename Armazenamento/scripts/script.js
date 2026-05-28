@@ -22,6 +22,66 @@ function mostrarTarefas(){
 
     for(let i = 0; i < tarefas.length; i++){
         const li = document.createElement("li"); // para cada elemento, cria um "li"
-        li.innerText = tarefas[i]; // cada vez que criar o "li", passa o valor que está na lista de tarefas na posição i
+       li.innerText = tarefas[i]; // cada vez que criar o "li", passa o valor que está na lista de tarefas na posição i
+        
+       const botaoRemover = document.createElement("button")
+        botaoRemover.innerText = "🗑️";
+
+        // cria a classe para usar a estilização do botão
+        botaoRemover.className = "botao-remover";
+
+        botaoRemover.addEventListener("click", () => {
+            // chamar função para remover tarefa
+            removerTarefas(i);
+        })
+
+        li.appendChild(botaoRemover);
+        listaTarefas.appendChild(li);
     }
 }
+
+function removerTarefas(posicaoTarefa) {
+    // splice -> (posicaoInicial, qtde_itens)
+    tarefas.splice(posicaoTarefa, 1);
+
+    // Depois de remover, chamo a funcção de salvar no localStorage
+    // atualiza localStorage com array de tarefas atualizado
+    salvarTarefas();
+
+    // Mostra as tarefas atualizadas, sem as tarefas que foram removidas
+    mostrarTarefas();
+}
+
+function adicionarTarefas() {
+    const valorTarefa = inputTarefa.value;
+
+    if(valorTarefa.trim() === "") {
+        alert("Digite uma tarefa");
+        return; // não deixa a tarefa vazua aparecer na tela
+    }
+
+    // Adiciona tarefas dentro do array
+    tarefas.push(valorTarefa);
+    inputTarefa.value = "";
+
+    salvarTarefas();
+    mostrarTarefas();
+}
+
+// função para carregar as tarefas salvas no localStorage
+function carregarTarefas() {
+    // Pega as tarefas do localStorage e armazena na variavel 'tarefasSalvas'
+    const tarefasSalvas = localStorage.getItem("tarefas");
+
+    // Se existir alguma coisa dentro de tarefasSalvas
+    // Então converte a tarefa e mostra na tela
+    if(tarefasSalvas) {
+        // Transforma o texto que está no localStorage em array novamente, utilizando '.parse'
+        tarefas = JSON.parse(tarefasSalvas);
+        mostrarTarefas();
+    }
+}
+
+botaoAdicionar.addEventListener("click", adicionarTarefas);
+
+carregarTarefas();
