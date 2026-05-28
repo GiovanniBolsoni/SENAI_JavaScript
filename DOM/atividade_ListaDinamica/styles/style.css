@@ -6,7 +6,6 @@
 
 body {
   background-color: #f4f4f4;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +19,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
 }
 
 #titulo {
@@ -28,14 +28,16 @@ body {
 }
 
 #input-item {
-  width: 50%;
+  width: 54%;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 6px;
+  height: 40px;
 }
 
 #botao-adicionar {
-  padding: 11px;
+  height: 40px;
+  padding: 10px;
   margin-bottom: 10px;
   cursor: pointer;
   border: none;
@@ -44,8 +46,15 @@ body {
   border-radius: 6px;
 }
 
+#grupo-tarefas {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
 #limpa-itens {
-  padding: 8px;
+  padding: 5px 50px ;
   cursor: pointer;
   border: none;
   background-color: #020037;
