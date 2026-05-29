@@ -19,7 +19,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  box-shadow: 0.5px 5px 20px rgb(0, 0, 0);
 }
 
 #titulo {
@@ -53,15 +53,6 @@ body {
   justify-content: space-between;
 }
 
-#limpa-itens {
-  padding: 5px 50px ;
-  cursor: pointer;
-  border: none;
-  background-color: #020037;
-  color: white;
-  border-radius: 6px;
-}
-
 #lista {
   list-style: none;
 }
@@ -76,4 +67,31 @@ body {
   background-color: #f9f9f9;
   border: 1px solid black;
   border-radius: 6px;
+}
+
+li.concluida {
+    text-decoration: line-through;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
+
+#aviso-tarefa {
+  margin: 10px;
+}
+
+#limpa-itens {
+  padding: 5px 50px ;
+  cursor: pointer;
+  border: none;
+  background-color: #020037;
+  color: white;
+  border-radius: 6px;
+}
+
+#contador-tarefas {
+  margin: 10px;
 }
