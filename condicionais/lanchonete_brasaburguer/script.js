@@ -27,6 +27,8 @@ if(produto == "X-Salada"){
 } else if(produto == "X-Tudo"){
     precoUnitario = 30;
     console.log(`Valor: R$${precoUnitario}`);
+} else {
+    console.log("Produto não encontrado!");
 }
 
 // quantidade de pedidos
