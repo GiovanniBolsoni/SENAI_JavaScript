@@ -1,5 +1,6 @@
 
 // Exercicio 1 - Básico - Contagem de 1 a 10
+// Objetivo: usar o for para contar e exibir os números de 1 até 10 no console.
 
 // for(i = 1; i <= 10; i++){
 //     console.log(i);
@@ -8,6 +9,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 2 - Básico - Tabuada de um número
+// Objetivo: receber um número e exibir sua tabuada de 1 a 10 usando o for.
 
 // let numero = Number(prompt("Digite um número: "));
 
@@ -18,6 +20,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 3 - Básico - Soma dos primeiros N números naturais
+// Objetivo: somar todos os números de 1 até N (digitado pelo usuário) usando o while.
 
 // let N = Number(prompt("Digite um número: "));
 // let soma = 0;
@@ -33,6 +36,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 1 - Intermediário - Exibir os números pares de 1 a 50
+// Objetivo: percorrer de 1 a 50 com o for e exibir apenas os números pares usando o operador %.
 
 // for(let i = 1; i <= 50; i++){
 //     if(i % 2 === 0)
@@ -42,6 +46,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 2 - Intermediário - Jogo de adivinhação
+// Objetivo: gerar um número aleatório e manter o loop enquanto o usuário não adivinhar.
 
 // const numeroSecreto = Math.floor(Math.random() * 100) + 1;
 // let palpite;
@@ -61,6 +66,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 3 - Intermediário - Contagem regressiva
+// Objetivo: receber um número e contar de volta até 0 usando o while com decremento.
 
 // let numero = Number(prompt("Digite um número para realizar a contagem regressiva:"));
 
@@ -74,6 +80,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 4 - Intermediário - Validação de senha
+// Objetivo: continuar pedindo a senha enquanto ela estiver errada, liberando o acesso só quando acertar.
 
 // const senhaCorreta = "1234";
 // let tentativa = prompt("Digite a senha:");
@@ -88,6 +95,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 5 - Intermediário - Somar até digitar 0
+// Objetivo: acumular a soma de números digitados pelo usuário e parar quando ele digitar 0.
 
 // let numero = Number(prompt("Digite um número para somar:"));
 // let somaTotal = 0;
@@ -102,6 +110,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 6 - Intermediário - Média de valores
+// Objetivo: receber 3 números com o for, somá-los e calcular a média ao final.
 
 // let soma = 0;
 
@@ -115,6 +124,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 1 - Avançado - Soma dos dígitos de um número
+// Objetivo: extrair cada dígito de um número usando % 10 e somá-los um a um com o while.
 
 // let numero = Number(prompt("Digite um número inteiro positivo:"));
 // let soma = 0;
@@ -131,6 +141,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 2 - Avançado - Tabuada dinâmica
+// Objetivo: exibir a tabuada completa de um número escolhido, formatada como "N x i = resultado".
 
 // let tabuada = Number(prompt("Qual tabuada deseja ver (1 até 10):"));
 
@@ -141,6 +152,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 3 - Avançado - Inverter um número
+// Objetivo: inverter a ordem dos dígitos de um número (ex: 123 → 321) usando % e Math.floor.
 
 // let numero = Number(prompt("Digite o número que deseja inverter: "));
 // let invertido = 0;
@@ -155,6 +167,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 4 - Avançado - Maior número digitado
+// Objetivo: pedir 5 números ao usuário e descobrir qual foi o maior entre eles.
 
 // let maiorNumero = 0;
 
@@ -170,6 +183,7 @@
 // --------------------------------------------------------------------
 
 // Exercicio 5 - Avançado - Lista de nomes (forEach)
+// Objetivo: percorrer um array de nomes com o forEach e exibir cada um no console.
 
 // const listaNomes = ["Nicolly", "Mariana", "Giovanni"]
 
@@ -180,6 +194,7 @@
 // --------------------------------------------------------------------
 
 // Desafio - Sistema de pedidos
+// Objetivo: exibir um cardápio, receber a escolha do usuário e validar se o produto existe no array.
 
 // const produtos = ["Pizza", "Hamburguer", "Refrigerante"];
 
