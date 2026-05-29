@@ -58,23 +58,23 @@
 
 // let numero1 = "100";
 // let texto = String(numero1);
-// console.log(numero1);
+// console.log(typeof texto);
 
 // ------------------------------------------------------------------------
 
 // Desafio — mini cadastro
 
-// let nome1 = "Giovanni";
+// let nome1 = "Giovanni Bolsoni";
 // let idade1 = "20";
-// let altura = "1.77cm"
-// let peso = "65kg";
+// let altura1 = "1.77cm"
+// let peso1 = "65kg";
 // let cidade1 = "São Paulo"
 // let profissao1 = "Desenvolvedor";
 
 // console.log(`Cadastro do usuario: 
-//             Nome: ${nome1}
-//             Idade: ${idade}
-//             Altura: ${altura}
-//             Peso: ${peso}
-//             Cidade: ${cidade}
-//             Profissão: ${profissao}`);
+//     Nome: ${nome1}
+//     Idade: ${idade1}
+//     Altura: ${altura1}
+//     Peso: ${peso1}
+//     Cidade: ${cidade1}
+//     Profissão: ${profissao1}`);
