@@ -1,5 +1,6 @@
 
 // Exercício 1 - Básico - Lista numerada
+// Objetivo: percorrer um array de nomes e exibir cada um com seu número de posição.
 
 // const nomes = ["Giovanni", "Amanda", "Gustavo", "Felipe", "Davi"]
 
@@ -10,6 +11,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 2 - Básico - Exibir posições
+// Objetivo: mostrar cada cor do array junto com o índice em que ela se encontra.
 
 // const cores = ["Azul", "Amamrelo", "Vermelho", "Verde"]
 
@@ -20,6 +22,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 3 - Básico - Primeiro e último
+// Objetivo: acessar e exibir o primeiro e o último item de um array pelo índice.
 
 // const marcas = ["Adidas", "Puma", "Rolex", "Dell", "Duracell"]
 
@@ -29,6 +32,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 4 - Básico - Contagem de itens
+// Objetivo: usar .length para contar e exibir quantos itens há no array.
 
 // const frutas = ["Maçã", " Banana", " Uva", " Manga", " Pera"]
 
@@ -37,6 +41,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 1 - Intermediário - Filtrar por posição
+// Objetivo: percorrer um array de números e exibir apenas os pares com sua posição.
 
 // const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -49,6 +54,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 2 - Intermediário - Destacar item específico
+// Objetivo: acessar e exibir somente o item que está em um índice específico do array.
 
 // const nomes = ["Giovanni", " Amanda", " Gustavo", " Felipe", " Davi"]
 
@@ -61,6 +67,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 3 - Intermediário - Transformar com índice
+// Objetivo: usar .map() para criar um novo array formatando cada item com sua posição.
 
 // const numeros = [10, 20, 30, 40, 50,]
 
@@ -73,6 +80,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 4 - Intermediário - Verificar posição
+// Objetivo: exibir apenas os itens do array que estão após o índice 2.
 
 // const produtos = ["Cama", "Armário", "Mesa", "Cadeira", "Televisão"]
 
@@ -85,6 +93,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 5 - Intermediário - Buscar com condição
+// Objetivo: usar .find() para retornar o primeiro número do array que seja maior que 50.
 
 // const numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
@@ -97,6 +106,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 1 - Avançado - Ranking simples
+// Objetivo: usar .map() para transformar um array de nomes em um ranking numerado.
 
 // const nomes = ["Giovanni", "Amanda", "Gustavo", "Felipe", "Davi"]
 
@@ -109,6 +119,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 2 - Avançado - Separar por posição
+// Objetivo: separar os itens do array em dois novos arrays: posições pares e ímpares.
 
 // const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // const pares = []
@@ -129,6 +140,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 3 - Avançado - Montar frase
+// Objetivo: usar .join() para unir todos os itens de um array em uma única string.
 
 // let palavras = ["Montando", "uma", "frase", "usando", "(Join)", "em", "JavaScript"]
 
@@ -138,6 +150,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 4 - Avançado - Buscar e mostrar posição
+// Objetivo: usar .indexOf() para encontrar em qual posição está o nome digitado pelo usuário.
 
 // const nomes = ["Giovanni", "Daniel", "Gustavo", "Matheus", "Guilherme"]
 
@@ -154,6 +167,7 @@
 // --------------------------------------------------------------------
 
 // Exercício 5 - Avançado - Marcar itens
+// Objetivo: exibir uma lista de tarefas formatada com checkbox e número de ordem.
 
 // let tarefas = ["Lavar a louça", "Fazer o dever", "Tirar o lixo", "Limpar o quarto", "Passear com o pet"]
 
@@ -164,6 +178,7 @@
 // --------------------------------------------------------------------
 
 // Desafio - Sistema de escolha
+// Objetivo: exibir um array de cores com seus índices e deixar o usuário escolher uma pelo número.
 
 // const cores = ["Azul", "Vermelho", "Verde", "Amarelo", "Roxo", "Rosa"]
 
