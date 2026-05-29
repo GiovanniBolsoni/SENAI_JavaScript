@@ -44,7 +44,7 @@ function removerTarefas(posicaoTarefa) {
     // splice -> (posicaoInicial, qtde_itens)
     tarefas.splice(posicaoTarefa, 1);
 
-    // Depois de remover, chamo a funcção de salvar no localStorage
+    // Depois de remover, chamo a função de salvar no localStorage
     // atualiza localStorage com array de tarefas atualizado
     salvarTarefas();
 
