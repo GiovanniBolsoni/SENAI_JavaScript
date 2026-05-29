@@ -56,7 +56,7 @@ function adicionarTarefas() {
     const valorTarefa = inputTarefa.value;
 
     if(valorTarefa.trim() === "") {
-        alert("Digite uma tarefa");
+        alert("Digite uma tarefa!");
         return; // não deixa a tarefa vazua aparecer na tela
     }
 
