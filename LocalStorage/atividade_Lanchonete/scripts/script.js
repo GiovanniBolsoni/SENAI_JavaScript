@@ -7,6 +7,10 @@ const pedidoAtual = document.getElementById("pedido-atual");
 botaoAdicionar.addEventListener("click", () => {
     let pedidoDigitado = inputPedido.value;
 
+    if (pedidoDigitado === "") {
+        return;
+    }
+
     const li = document.createElement("li");
 
     li.innerText = pedidoDigitado;
@@ -18,6 +22,9 @@ botaoAdicionar.addEventListener("click", () => {
     const botaoRemover = document.createElement("button")
     botaoRemover.innerText = "🗑️";
     li.appendChild(botaoRemover);
+
+    botaoRemover.style.backgroundColor = "#e65c00";
+    botaoRemover.style.border = "none";
 
     botaoRemover.addEventListener("click", () => {
         li.remove();
@@ -38,4 +45,10 @@ botaoAtender.addEventListener("click", () => {
     pedidoAtual.innerText = "Atendendo: " + primeiroPedido.innerText;
 
     primeiroPedido.remove();
+});
+
+inputPedido.addEventListener("keydown", (dados) => {
+    if (dados.key === "Enter") {
+        botaoAdicionar.click();
+    }
 });
