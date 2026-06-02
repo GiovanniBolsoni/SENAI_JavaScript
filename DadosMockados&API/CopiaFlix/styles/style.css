@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000000;
+}
+
+.cabecalho > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #e50914;
+}
+
+.cabecalho > input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* fILMES */
+
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* CARD DE FILME */
+
+.filme {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.filme:hover {
+    cursor: pointer;
+    transform: scale(1.05); /* Aumenta a escala do elemento quando passar o mouse por cima */
+}
+
+.filme > img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(transparent, black);
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 6px 6px;
+}
+
+.info > h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.info > span {
+    font-size: 12px;
+    color: #cccccc;
+}
