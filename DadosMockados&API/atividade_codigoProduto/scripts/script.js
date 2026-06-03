@@ -1,6 +1,12 @@
 const codigoDigitado = document.getElementById("digita-codigo");
 const botaoBuscar = document.getElementById("botao-buscar");
 
+const mensagemErro = document.getElementById("mensagem-erro");
+
+const nomeProduto = document.getElementById("nome-produto");
+const precoProduto = document.getElementById("preco-produto");
+const categoriaProduto = document.getElementById("categoria-produto");
+
 const produtosMockados = {
     "001": {
         nome: "Fone de ouvido Headset",
@@ -8,17 +14,17 @@ const produtosMockados = {
         categoria: "Perifericos"
     },
     "002": {
-        nome: "Mouse",
+        nome: "Mouse Gamer",
         preço: "R$ 100,00",
         categoria: "Perifericos"
     },
     "003": {
-        nome: "Notebook",
+        nome: "Notebook i5",
         preço: "R$ 3.000,00",
         categoria: "Computador"
     },
     "004": {
-        nome: "Teclado",
+        nome: "Teclado Gamer",
         preço: "R$ 250,00",
         categoria: "Perifericos"
     },
@@ -42,10 +48,25 @@ const produtosMockados = {
 function buscarProdutos() {
     const codigo = codigoDigitado.value;
 
+    const produto = produtosMockados[codigo];
+
     if(codigo.trim() === "") {
-        alert("Digite o código de um produto!");
+        mensagemErro.innerText = "Digite o código do produto!"
         return;
     }
+    
+    if(!produto) {
+        mensagemErro.innerText = "Código inexistente!"
+        return;
+    }
+    
+    mensagemErro.innerHTML = "";
 
-    botaoBuscar.addEventListener("click", buscarProdutos)
+    nomeProduto.innerText = produto.nome
+    precoProduto.innerText = produto.preço
+    categoriaProduto.innerText = produto.categoria
 }
+
+botaoBuscar.addEventListener("click", buscarProdutos);
+
+codigoDigitado.addEventListener("input", buscarProdutos);

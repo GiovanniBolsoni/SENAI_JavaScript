@@ -9,13 +9,21 @@
     <script defer src="scripts/script.js"></script>
 </head>
 <body>
-    <h1>Catálogo de Produtos</h1>
+    <div id="container">
+        <h1>Catálogo de Produtos</h1>
 
-    <input type="text" id="digita-codigo" placeholder="Digite o código do produto">
-    <button id="botao-buscar">Buscar</button>
+        <div id="busca">
+            <input type="text" id="digita-codigo" placeholder="Digite o código do produto">
+            <button id="botao-buscar">Buscar</button>
+        </div>
 
-    <p>Nome: <span id="nome-produto"></span></p>
-    <p>Preço: <span id="preco-produto"></span></p>
-    <p>Categoria: <span id="categoria-produto"></span></p>
+        <div id="mensagem-erro"></div>
+
+        <div id="caixa-produtos">
+            <p>Nome: <span id="nome-produto"></span></p>
+            <p>Preço: <span id="preco-produto"></span></p>
+            <p>Categoria: <span id="categoria-produto"></span></p>
+        </div>
+    </div>
 </body>
 </html>
