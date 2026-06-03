@@ -55,9 +55,9 @@
 //     palpite = Number(prompt("Tente adivinhar qual é o número secreto entre 1 até 100:"));
 
 //     if(palpite > numeroSecreto){
-//         alert("O número secreto é menor do qual foi digitado!");
+//         alert("O número secreto é MENOR do qual foi digitado!");
 //     } else if(palpite < numeroSecreto){
-//         alert("O número secreto é maior do qual foi digitado!")
+//         alert("O número secreto é MAIOR do qual foi digitado!");
 //     } else{
 //         alert("Parabens, voce acertou o número secreto!");
 //     }
