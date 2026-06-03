@@ -57,7 +57,7 @@ function adicionarTarefas() {
 
     if(valorTarefa.trim() === "") {
         alert("Digite uma tarefa!");
-        return; // não deixa a tarefa vazua aparecer na tela
+        return; // não deixa a tarefa vazia aparecer na tela
     }
 
     // Adiciona tarefas dentro do array
