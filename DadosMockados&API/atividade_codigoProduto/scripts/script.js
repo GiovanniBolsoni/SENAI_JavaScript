@@ -40,5 +40,12 @@ const produtosMockados = {
 }
 
 function buscarProdutos() {
-    
+    const codigo = codigoDigitado.value;
+
+    if(codigo.trim() === "") {
+        alert("Digite o código de um produto!");
+        return;
+    }
+
+    botaoBuscar.addEventListener("click", buscarProdutos)
 }
