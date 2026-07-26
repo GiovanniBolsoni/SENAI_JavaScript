@@ -41,12 +41,6 @@ Os projetos são páginas estáticas simples, sem necessidade de instalação de
 
 > Alguns arquivos de estudo (como `variaveis.js`, `condicionais.js`, etc.) têm o código comentado, pois foram usados para testar trecho por trecho durante a aula — para ver o resultado no console, basta descomentar o trecho desejado e abrir o `index.html` correspondente com o console do navegador aberto (F12).
 
-## ⚠️ Observação sobre a atividade CopiaFlix
-
-O arquivo `DadosMockados&API/CopiaFlix/scripts/script.js` contém uma chave de API do TMDB escrita diretamente no código. Antes de publicar/deixar este repositório público, recomenda-se:
-- Revogar/gerar uma nova chave no [TMDB](https://www.themoviedb.org/), já que a atual ficou exposta;
-- Mover a chave para uma variável de ambiente ou arquivo de configuração ignorado pelo Git (`.gitignore`), em vez de deixá-la fixa no código.
-
 ## 👤 Autor
 
 Projeto desenvolvido por **Giovanni Bolsoni** durante o curso de JavaScript do SENAI, como prática dos conceitos vistos em aula.
